@@ -8,10 +8,14 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
-  gem 'pry'
+  gem 'pry-rails'
   gem 'capybara'
   gem 'rspec-rails'
   gem 'shoulda'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'guard'
+  gem 'guard-livereload', '~> 2.5', require: false
 end
 
 group :development do
