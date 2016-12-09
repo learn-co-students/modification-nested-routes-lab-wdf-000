@@ -12,6 +12,7 @@ RSpec.describe ArtistsHelper, type: :helper do
   subject { helper }
 
   it { should respond_to(:display_artist).with(1).argument }
+  # binding.pry
   it { should respond_to(:artist_select).with(2).arguments }
 
   it "displays a link to edit the song if artist empty" do
